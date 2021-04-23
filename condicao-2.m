@@ -16,7 +16,7 @@ P=lmivar(1,[4 1]);
 N=lmivar(2,[2 2]);
 M=lmivar(2,[2 2]);
 % P*Ag+Ag’*P-B*N*C-C’*N’*B’<0
-  lmiterm([1 1 1 P],1,Ag,’s’); % LMI #1: P*Ag+Ag’*P
+lmiterm([1 1 1 P],1,Ag,’s’); % LMI #1: P*Ag+Ag’*P
 lmiterm([1 1 1 N],B,-C,’s’); % LMI #1: -B*N*C-C’*N’*B’
 % P>0
 lmiterm([-2 1 1 P],1,1); % LMI #2: P
