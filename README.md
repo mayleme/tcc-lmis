@@ -1,1 +1,3 @@
 # tcc-lmis
+
+O conceito de estabilidade é de grande importância na análise do comportamento de um sistema. Uma das formas de avaliação da estabilidade de um sistema é por meio de condições descritas em termos de desigualdades matriciais lineares (LMIs). O meu trabalho de conclusão de curso de Engenharia Elétrica realizou o estudo de estabilidade do modelo matemático de um manipulador robótico por realimentação da saída através de seis condições declaradas por LMIs, de modo a fazer um estudo comparativo entre as condições, buscando obter a máxima taxa de decaimento. A fim de eliminar as igualdades matriciais lineares (LMEs), foi realizado uma transformação no modelo e foi realizada uma nova comparação entre as condições declaradas por LMIs.
